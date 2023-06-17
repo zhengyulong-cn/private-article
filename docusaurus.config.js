@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '筝语的小站',
-  tagline: 'Dinosaurs are cool',
+  tagline: '纸上得来终觉浅，绝知此事要躬行',
   favicon: 'img/favicon.ico',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -76,7 +76,7 @@ const config = {
       },
       footer: {
         style: 'light',
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}-present zhengyu. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
