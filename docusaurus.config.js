@@ -1,19 +1,21 @@
+const math = require('remark-math');
+const katex = require('rehype-katex');
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '筝语的小站',
   tagline: '纸上得来终觉浅，绝知此事要躬行',
-  favicon: 'img/favicon.ico',
-  url: 'https://your-docusaurus-test-site.com',
+  favicon: 'img/logo.svg',
+  url: 'https://zhengyulong-cn.github.io',
   baseUrl: '/',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-CN',
+    locales: ['zh-CN'],
   },
   presets: [
     [
@@ -22,6 +24,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {},
         theme: {
@@ -71,6 +75,15 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
 };
 
 module.exports = config;
