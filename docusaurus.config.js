@@ -44,29 +44,17 @@ const config = {
         items: [
           {
             type: 'docSidebar',
+            sidebarId: 'stock',
+            position: 'left',
+            label: '股票市场',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'articles',
             position: 'left',
-            label: '读书笔记',
+            label: '学习积累',
           },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'stock',
-          //   position: 'left',
-          //   label: '股票市场',
-          // },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'trading',
-          //   position: 'left',
-          //   label: '交易记录',
-          // },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'articles',
-          //   position: 'left',
-          //   label: '文章收藏',
-          // },
-          { to: '/blog', label: '博客', position: 'left'},
+          // { to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
