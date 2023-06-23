@@ -36,3 +36,7 @@
   --ifm-h1-font-size: 2.5rem;
   text-align: center;
 }
+
+.katex .katex-html>.newline {
+  height: 1rem;
+}
