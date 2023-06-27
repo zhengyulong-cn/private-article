@@ -35,6 +35,13 @@ const sidebars = {
       items: [
         'stock/股票基础教程/股票基础知识',
       ]
+    },
+    {
+      label: '缠论',
+      type: 'category',
+      items: [
+        'stock/缠论/都业华半年课',
+      ]
     }
   ],
 };
