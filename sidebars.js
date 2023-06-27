@@ -41,6 +41,7 @@ const sidebars = {
       type: 'category',
       items: [
         'stock/缠论/都业华半年课',
+        'stock/缠论/半年课问题及答疑',
       ]
     }
   ],
