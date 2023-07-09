@@ -34,6 +34,7 @@ const sidebars = {
       type: 'category',
       items: [
         'stock/股票基础教程/股票基础知识',
+        'stock/股票基础教程/技术指标',
       ]
     },
     {
