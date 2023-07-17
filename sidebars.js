@@ -1,4 +1,22 @@
 const sidebars = {
+  stock: [
+    {
+      label: '股票基础教程',
+      type: 'category',
+      items: [
+        'stock/股票基础教程/股票基础知识',
+        'stock/股票基础教程/技术指标',
+      ]
+    },
+    {
+      label: '缠论',
+      type: 'category',
+      items: [
+        'stock/缠论/白仪缠论基础/index',
+        'stock/缠论/都业华半年课/index',
+      ]
+    }
+  ],
   articles: [
     {
       label: '文章',
@@ -27,25 +45,6 @@ const sidebars = {
       ]
     },
     'articles/account',
-  ],
-  stock: [
-    {
-      label: '股票基础教程',
-      type: 'category',
-      items: [
-        'stock/股票基础教程/股票基础知识',
-        'stock/股票基础教程/技术指标',
-      ]
-    },
-    {
-      label: '缠论',
-      type: 'category',
-      items: [
-        'stock/缠论/白仪缠论基础/index',
-        'stock/缠论/都业华半年课',
-        'stock/缠论/半年课问题及答疑',
-      ]
-    }
   ],
 };
 
