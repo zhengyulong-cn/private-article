@@ -13,6 +13,7 @@ const sidebars = {
       type: 'category',
       items: [
         'stock/缠论/白仪缠论基础/index',
+        'stock/缠论/白仪野生交易员笔记/index',
         'stock/缠论/都业华半年课/index',
       ]
     }
