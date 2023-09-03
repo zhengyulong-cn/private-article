@@ -292,3 +292,9 @@ SYLZY66sina
 手机号：40725380458（罗马尼亚）https://sms-activate.org
 
 密码：lzy523024
+
+## Tradingview
+
+账户：zhengyulong.cn@outlook.com
+
+密码：Lzy523024@@
