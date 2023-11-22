@@ -6,7 +6,7 @@ const sidebars = {
       items: [
         'stock/股票基础教程/股票基础知识',
         'stock/股票基础教程/技术指标',
-        'stock/股票基础教程/筹码分布/index',
+        'stock/股票基础教程/股票指标精讲/index',
       ]
     },
     {
