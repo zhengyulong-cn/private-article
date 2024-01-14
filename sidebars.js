@@ -32,7 +32,6 @@ const sidebars = {
         'articles/读书笔记/《动物庄园》读书笔记',
         'articles/读书笔记/《菜根谭》读书笔记',
         'articles/读书笔记/《股票大作手操盘术》读书笔记',
-        'articles/读书笔记/《量价时空》读书笔记',
         'articles/读书笔记/《一本书读懂财报》读书笔记',
       ]
     },
